@@ -1,5 +1,19 @@
-.PHONY: bases
-bases:
-	GHCi ./Bases.hs
+.PHONY: b_fn
+b_fn:
+	GHCi ./Bases/Functions.hs
 
-.DEFAULT_GOAL := bases
+.PHONY: b_hi
+b_hi:
+	GHCi ./Bases/HelloWorld.hs
+
+.PHONY: b_op
+b_op:
+	GHCi ./Bases/Operators.hs
+
+.PHONY: b_re
+b_re:
+	GHCi ./Bases/Recursion.hs
+
+.PHONY: b_ty
+b_ty:
+	GHCi ./Bases/Functions.hs
