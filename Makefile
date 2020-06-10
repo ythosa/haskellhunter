@@ -1,5 +1,5 @@
-.PHONY: run
-run:
-	ghci ./Main.hs
+.PHONY: bases
+bases:
+	GHCi ./Bases.hs
 
-.DEFAULT_GOAL := run
+.DEFAULT_GOAL := bases
