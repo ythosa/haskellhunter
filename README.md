@@ -1,0 +1,2 @@
+# haskellhunter
+Haskell Code Samples
