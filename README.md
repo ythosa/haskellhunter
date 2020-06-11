@@ -18,6 +18,13 @@
 ## Content
 * [./Bases](https://github.com/Ythosa/haskellhunter/blob/master/Bases)
     * [Hello World program](https://github.com/Ythosa/haskellhunter/blob/master/Bases/HelloWorld.hs)
+    * [Using functions](https://github.com/Ythosa/haskellhunter/blob/master/Bases/Functions.hs)
+    * [Operators and some features](https://github.com/Ythosa/haskellhunter/blob/master/Bases/Operators.hs)
+    * [Types in Haskell](https://github.com/Ythosa/haskellhunter/blob/master/Bases/Types.hs)
+    * [Recursion and them optimisations](https://github.com/Ythosa/haskellhunter/blob/master/Bases/Recursion.hs)
+    * [Local bindings](https://github.com/Ythosa/haskellhunter/blob/master/Bases/LocalBindings.hs)
+* [./FunctionalProgramming](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming)
+    * [Functional parametric polymorphism](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming/ParametricPolymorphism.hs)
 
 ## FAQ
 *Q*: How can I help to develop this project?  
