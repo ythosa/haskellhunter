@@ -21,3 +21,7 @@ b_ty:
 .PHONY: b_lb
 b_lb:
 	GHCi ./Bases/LocalBindings.hs
+
+.PHONY: fp_pp
+fp_pp:
+	GHCi ./FunctionalProgramming/ParametricPolymorphism.hs
