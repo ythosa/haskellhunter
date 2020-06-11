@@ -17,3 +17,7 @@ b_re:
 .PHONY: b_ty
 b_ty:
 	GHCi ./Bases/Functions.hs
+
+.PHONY: b_lb
+b_lb:
+	GHCi ./Bases/LocalBindings.hs
