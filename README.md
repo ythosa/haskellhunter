@@ -23,10 +23,11 @@
     * [Types in Haskell](https://github.com/Ythosa/haskellhunter/blob/master/Bases/Types.hs)
     * [Recursion and them optimisations](https://github.com/Ythosa/haskellhunter/blob/master/Bases/Recursion.hs)
     * [Local bindings](https://github.com/Ythosa/haskellhunter/blob/master/Bases/LocalBindings.hs)
-* [./ProgrammingBasics](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming)
+* [./ProgrammingBasics](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics)
     * [Functional parametric polymorphism, lambda functions, mapping](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/ParametricPolymorphism.hs)
     * [Type classes](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/TypeClasses.hs)
-    
+    * [Non strict semantic in Haskell](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/NonStrictSemantics.hs)
+
 ## FAQ
 *Q*: How can I help to develop this project?  
 *A*: You can put a :star: :3
