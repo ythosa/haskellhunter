@@ -38,3 +38,36 @@ on3 :: (b -> b -> b -> c) -> (a -> b) -> a -> a -> a -> c
 on3 op f x y z = op (f x) (f y) (f z)
 
 sum3squares = (\x y z -> x+y+z) `on3` (^2)
+
+
+-- Compositions
+sumFstFst'' = (+) `on` (fst . fst)
+
+
+bigFunc = f . g . h
+        where
+                h x = if x > 42 then x else 42
+                g x = x ^ 3
+                f x = log x
+
+
+-- Parametric Polymorphism in tuples and lists
+tup = (,) True 3
+
+dup x = (x, x)
+
+
+-- Mapping
+avg :: (Double,Double) -> Double
+avg (x, y) = (x + y) / 2
+
+--avgandsqr = avg `on` (^2) - Error
+avgandsqr = curry avg `on` (^2)
+
+mycurry f a b = f (a, b)
+
+myswap = f (g h)
+        where
+                h = (,)
+                g = flip
+                f = uncurry
