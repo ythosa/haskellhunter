@@ -23,9 +23,9 @@
     * [Types in Haskell](https://github.com/Ythosa/haskellhunter/blob/master/Bases/Types.hs)
     * [Recursion and them optimisations](https://github.com/Ythosa/haskellhunter/blob/master/Bases/Recursion.hs)
     * [Local bindings](https://github.com/Ythosa/haskellhunter/blob/master/Bases/LocalBindings.hs)
-* [./FunctionalProgramming](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming)
-    * [Functional parametric polymorphism, lambda functions, mapping](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming/ParametricPolymorphism.hs)
-    * [Type classes](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming/TypeClasses.hs)
+* [./ProgrammingBasics](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming)
+    * [Functional parametric polymorphism, lambda functions, mapping](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/ParametricPolymorphism.hs)
+    * [Type classes](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/TypeClasses.hs)
     
 ## FAQ
 *Q*: How can I help to develop this project?  

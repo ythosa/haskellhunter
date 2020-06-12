@@ -22,10 +22,10 @@ b_ty:
 b_lb:
 	GHCi ./Bases/LocalBindings.hs
 
-.PHONY: fp_pp
-fp_pp:
-	GHCi ./FunctionalProgramming/ParametricPolymorphism.hs
+.PHONY: pb_pp
+pb_pp:
+	GHCi ./ProgrammingBasics/ParametricPolymorphism.hs
 
-.PHONY: fp_tc
-fp_tc:
-	GHCi ./FunctionalProgramming/TypeClasses.hs
+.PHONY: pb_tc
+pb_tc:
+	GHCi ./ProgrammingBasics/TypeClasses.hs
