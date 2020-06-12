@@ -25,3 +25,7 @@ b_lb:
 .PHONY: fp_pp
 fp_pp:
 	GHCi ./FunctionalProgramming/ParametricPolymorphism.hs
+
+.PHONY: fp_tc
+fp_tc:
+	GHCi ./FunctionalProgramming/TypeClasses.hs

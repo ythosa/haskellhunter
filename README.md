@@ -25,7 +25,8 @@
     * [Local bindings](https://github.com/Ythosa/haskellhunter/blob/master/Bases/LocalBindings.hs)
 * [./FunctionalProgramming](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming)
     * [Functional parametric polymorphism, lambda functions, mapping](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming/ParametricPolymorphism.hs)
-
+    * [Type classes](https://github.com/Ythosa/haskellhunter/blob/master/FunctionalProgramming/TypeClasses.hs)
+    
 ## FAQ
 *Q*: How can I help to develop this project?  
 *A*: You can put a :star: :3
