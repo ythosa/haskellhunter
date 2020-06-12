@@ -1,4 +1,4 @@
-module NonStrictSemantics where
+module ProgrammingBasics.NonStrictSemantics where
 
 sumIt :: Int -> Int -> Int
 sumIt x y = x + y

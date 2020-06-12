@@ -30,7 +30,10 @@ pb_pp:
 pb_tc:
 	GHCi ./ProgrammingBasics/TypeClasses.hs
 
-
 .PHONY: pb_nss
 pb_nss:
 	GHCi ./ProgrammingBasics/NonStrictSemantics.hs
+
+.PHONY: pb_m
+pb_m:
+	GHCi ./ProgrammingBasics/Modules.hs

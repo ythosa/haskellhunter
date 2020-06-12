@@ -1,4 +1,4 @@
-module Types where
+module Bases.Types where
 
 import Data.Char
 

@@ -1,4 +1,4 @@
-module TypeClasses where
+module ProgrammingBasics.TypeClasses where
 
 import Data.Char
 

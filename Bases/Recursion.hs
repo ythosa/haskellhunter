@@ -1,4 +1,4 @@
-module Recursion where
+module Bases.Recursion where
 
 
 factorial :: Integer -> Integer

@@ -27,9 +27,8 @@
     * [Functional parametric polymorphism, lambda functions, mapping](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/ParametricPolymorphism.hs)
     * [Type classes](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/TypeClasses.hs)
     * [Non strict semantic in Haskell](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/NonStrictSemantics.hs)
+    * [Modules](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/Modules.hs)
 
 ## FAQ
 *Q*: How can I help to develop this project?  
 *A*: You can put a :star: :3
-
-<br>

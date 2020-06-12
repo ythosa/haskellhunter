@@ -1,4 +1,4 @@
-module LocalBindings where
+module Bases.LocalBindings where
 
 roots :: Double -> Double -> Double -> (Double, Double)
 roots a b c = (

@@ -1,4 +1,4 @@
-module Operators where
+module Bases.Operators where
 
 maxOperatorStyle x y = x `max` y
 
