@@ -108,8 +108,6 @@ class Num a where
         x - y = x + negate y
         negate x = 0 - x
 -- LAW: abs x * signum x = x
-
-
 -}
 
 

@@ -29,3 +29,8 @@ pb_pp:
 .PHONY: pb_tc
 pb_tc:
 	GHCi ./ProgrammingBasics/TypeClasses.hs
+
+
+.PHONY: pb_nss
+pb_nss:
+	GHCi ./ProgrammingBasics/NonStrictSemantics.hs
