@@ -1,6 +1,7 @@
 module Lists.ListFunctions where
 
-import Prelude hiding (length,(++),null)
+import Prelude hiding (length, (++), null, last, init, zip, unzip)
+import Data.List
 
 list = 5 : [1, 2, 3] -- -> [5,1,2,3]
 list1 = list ++ [4, 5] -- -> [5,1,2,3,4,5]
@@ -57,3 +58,44 @@ oddsOnly list = reverseList $ odding list []
             where
                 go acc [] = acc
                 go acc (x:xs) = go (x:acc) xs
+
+last :: [a] -> a
+last (x : []) = x
+last (x : xs) = last xs
+
+init :: [a] -> [a]
+init []       = error "the slice must not be empty"
+init [_]      = []
+init (x : xs) = x : init xs
+
+isPalindrome :: Eq a => [a] -> Bool
+isPalindrome []        = True
+isPalindrome [_]       = True
+isPalindrome (a : arr) = a == last arr && isPalindrome(init arr)
+
+zip :: [a] -> [b] -> [(a,b)]
+zip []     _      = []
+zip _      []     = []
+zip (a:as) (b:bs) = (a,b) : zip as bs
+
+unzip :: [(a,b)] -> ([a], [b])
+unzip [] = ([], [])
+unzip ((x,y) : xys) =
+    let (xs, ys) = unzip xys
+    in  (x:xs, y:ys)
+
+-- sum3 [1,2,3] [4,5] [6]  ->  [11,7,3]
+sum3 :: Num a => [a] -> [a] -> [a] -> [a]
+sum3 a b c = calculate $ transpose [a,b,c] where
+  calculate as = reverse $ calc [] as where
+    calc a [] = a
+    calc a (x:xs) = calc (sum x:a) xs
+
+-- groupElems [1,2,2,2,4]  ->  [[1],[2,2,2],[4]]
+groupElems :: Eq a => [a] -> [[a]]
+groupElems []     = []
+groupElems (x:xs) = accum xs [x] []
+  where
+    accum []     acc     all  = reverse $ acc:all
+    accum (x:xs) (z:acc) all | x == z    = accum xs (z:z:acc) all
+    accum (x:xs) (z:acc) all | otherwise = accum xs [x] ((z:acc):all)

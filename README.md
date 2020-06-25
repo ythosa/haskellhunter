@@ -28,6 +28,8 @@
     * [Type classes](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/TypeClasses.hs)
     * [Non strict semantic in Haskell](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/NonStrictSemantics.hs)
     * [Modules](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/Modules.hs)
+* [./Lists](https://github.com/Ythosa/haskellhunter/blob/master/Lists)
+    * [List functions](https://github.com/Ythosa/haskellhunter/blob/master/Lists/ListFunctions.hs)
 
 ## FAQ
 *Q*: How can I help to develop this project?  
