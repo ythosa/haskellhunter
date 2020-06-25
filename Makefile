@@ -37,3 +37,7 @@ pb_nss:
 .PHONY: pb_m
 pb_m:
 	GHCi ./ProgrammingBasics/Modules.hs
+
+.PHONY: l_lf
+l_lf:
+	GHCi ./Lists/ListFunctions.hs
