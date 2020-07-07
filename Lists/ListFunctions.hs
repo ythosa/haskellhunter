@@ -1,7 +1,7 @@
 module Lists.ListFunctions where
 
-import Prelude hiding (length, (++), null, last, init, zip, unzip)
-import Data.List
+import Prelude hiding (length, (++), null, last, init, zip, unzip, take, drop, splitAt, (!!))
+import Data.List hiding (length, (++), null, last, init, zip, unzip, take, drop, splitAt, (!!))
 
 list = 5 : [1, 2, 3] -- -> [5,1,2,3]
 list1 = list ++ [4, 5] -- -> [5,1,2,3,4,5]
@@ -99,3 +99,26 @@ groupElems (x:xs) = accum xs [x] []
     accum []     acc     all  = reverse $ acc:all
     accum (x:xs) (z:acc) all | x == z    = accum xs (z:z:acc) all
     accum (x:xs) (z:acc) all | otherwise = accum xs [x] ((z:acc):all)
+
+-- take 1 "Hello"  ->  "H"
+take :: Int -> [a] -> [a]
+take n _ | n <= 0 = []
+take _ []         = []
+take n (x:xs)     = x : take (n-1) xs
+
+-- drop 1 "Hello"  ->  "ello"
+drop :: Int -> [a] -> [a]
+drop n xs | n <= 0 = xs
+drop _ []          = []
+drop n (x:xs)      = drop (n-1) xs
+
+-- splitAt 2 [1,2,3]  ->  ([1, 2],[3])
+splitAt :: Int -> [a] -> ([a], [a])
+splitAt n xs = (take n xs, drop n xs)
+
+-- "Hello" !! 4  ->  'o'
+(!!) :: [a] -> Int -> a
+(!!) xs     n | n < 0 = error "negative index" 
+(!!) []     _         = error "index too large"
+(!!) (x:_)  0         = x
+(!!) (_:xs) n         = xs !! (n-1)
