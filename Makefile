@@ -43,5 +43,9 @@ l_lf:
 	GHCi ./Lists/ListFunctions.hs
 
 .PHONY: l_lhof
-l_lf:
+l_lhof:
 	GHCi ./Lists/ListHOC.hs
+
+.PHONY: l_g
+l_g:
+	GHCi ./Lists/Generators.hs
