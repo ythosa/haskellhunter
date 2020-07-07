@@ -30,6 +30,7 @@
     * [Modules](https://github.com/Ythosa/haskellhunter/blob/master/ProgrammingBasics/Modules.hs)
 * [./Lists](https://github.com/Ythosa/haskellhunter/blob/master/Lists)
     * [List functions](https://github.com/Ythosa/haskellhunter/blob/master/Lists/ListFunctions.hs)
+    * [List High Order Functions](https://github.com/Ythosa/haskellhunter/blob/master/Lists/ListHOF.hs)
 
 ## FAQ
 *Q*: How can I help to develop this project?  

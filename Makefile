@@ -41,3 +41,7 @@ pb_m:
 .PHONY: l_lf
 l_lf:
 	GHCi ./Lists/ListFunctions.hs
+
+.PHONY: l_lhof
+l_lf:
+	GHCi ./Lists/ListHOC.hs
